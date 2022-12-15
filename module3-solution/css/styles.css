@@ -1,6 +1,8 @@
+
+
 /*Header*/
 #header-nav {
-	background-color: #868372;
+	background-color: #d6d6c2;
 	border-radius: 0;
 	border: 0;
 	border: 1px solid Black;
@@ -48,10 +50,12 @@
 	margin-bottom: 25px;
 }
 
-section.container {
-	background-color: #868372;
-}
 
-.container p {
-	height: 1000px;
+.container #chicken .menu-desc, .container #beef .menu-desc, .container #sushi .menu-desc {
+	margin: 0 auto 30px;
+	border: 1px solid black;
+	height: 800px;
+	background-color: #d6d6c2;
+	padding: 0 20px 20px 20px;
+	overflow: hidden;
 }
